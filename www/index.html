@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/estilos.css">
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/app.js"></script>
+	<title>Anotador de Truco 2</title>
+</head>
+<body>
+	<section id="pant1" class="visible fondo">
+		<article class="a1">
+		<input type="text" id="equipo1" class="eqinicio btn" placeholder="Equipo 1">
+		<input type="text" id="equipo2" class="eqinicio btn" placeholder="Equipo 2">
+		</article>
+		<article class="a2">
+		<input type="button" class="btngris acuanto" id="a24" value="a 24">
+		<input type="button" class="btngris acuanto" id="a30" value="a 30">
+		</article>
+		<article class="a2">
+		<input  type="button" class="btn eqinicio" id="apantalla2" value="Iniciar">
+		</article>
+	</section>
+	<section id="pant2" class="oculto fondo">
+		<article class="puntaje p2head">
+		<!--  mas y equipos -->	
+		<div>
+		<input type="button" class="btn fosf1" id="sumae1" value="+">
+		<input type="button" id="e1p2" class="nombres">
+		</div>
+		<div class="divheadder">
+		<input type="button" id="e2p2" class="nombres">
+		<input type="button" class="btn fosf2" id="sumae2" value="+">
+		</div>
+		</article>
+		
+		<article class="puntaje p2puntos">
+		<!--  primeros 15/12 -->	
+		<div class="fosforosizq">
+			<img id="e1_1" class="ie1" src="img/0.png">
+			<img id="e1_2" class="ie1" src="img/0.png">
+			<img id="e1_3" class="ie1" src="img/0.png">
+		</div>
+		<div class="fosforosder">
+			<img id="e2_1" class="ie2" src="img/0.png">
+			<img id="e2_2" class="ie2" src="img/0.png">
+			<img id="e2_3" class="ie2" src="img/0.png">
+		</div>
+		</article>
+
+		<article class="puntaje p2puntos">
+			<!--  segundos 15/12 -->
+		<div class="fosforosizq">
+			<img id="e1_4" class="ie1" src="img/0.png">
+			<img id="e1_5" class="ie1" src="img/0.png">
+			<img id="e1_6" class="ie1" src="img/0.png">
+		</div>
+		<div class="fosforosder">
+			<img id="e2_4" class="ie2" src="img/0.png">
+			<img id="e2_5" class="ie2" src="img/0.png">
+			<img id="e2_6" class="ie2" src="img/0.png">
+		</div>
+		</article>
+		
+		<article class="puntaje p2acuanto">
+			<label id="total">a 30</label>
+			<!--  a cuanto -->
+		</article>
+
+		<article class="puntaje p2fin">
+			<!--  menos / puntos y fin -->
+		<div>
+		<input type="button" class="btn fosf1" id="restae1" value="-">
+		<label id="e1p2puntos">00</label>
+		</div>
+		<input type="button" class="btn" id="apantalla1" value="Fin">
+		<div>
+		<label id="e2p2puntos">00</label>
+		<input type="button" class="btn fosf2" id="restae2" value="-">
+		</div>
+
+		</article>
+	</section>	
+</body>
+</html>
